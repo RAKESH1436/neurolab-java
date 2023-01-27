@@ -8,13 +8,25 @@ public class Kunalif {
             //do this
          }
          */
-        int salary=25400;
+        //multiple if-else
+        int salary=5400;
         // if(salary>10000){
         //     salary=salary+2000;
         // }else{
         //     salary=salary+1000;
         // }
+
+        if(salary>10000){
+            salary+=200;
+        }if (salary>20000) {
+            salary+=1000;
+            
+        } else {
+            salary+=1000;
+            
+        }
         System.out.println(salary);
+
     }
     
 }
